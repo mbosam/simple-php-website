@@ -1,0 +1,39 @@
+
+<?php
+<html>
+<table bgcolor="c4c4c4" align="center" width="300" border="0">
+<tr>
+<td align="center" colspan="2"> <font color="#0000ff"> your output </font></td>
+</tr>
+<tr>
+<td width="300"> </td>
+<td width="300"> </td>
+</tr>
+<tr>
+<td>  Name IS </td>
+<td> <input type="text" value=" <?php echo $_POST ['name']; ?>" readonly=""/></td>;
+</tr>
+<tr>
+<tr>
+<td>  Email is:</td>
+<td> <input type="text" value="<?php echo $_POST ['email']; ?>" readonly=""/></td>
+</tr>
+<tr>
+<td>  Password  </td>
+<td> <input type="text" value="<?php echo $_POST ['password']; ?>" readonly=""/></td>
+</tr>
+<tr>
+<tr>
+<td>  Mobile </td>
+<td> <input type="text" value="<?php echo $_POST ['num']; ?>"readonly=""/></td>
+</tr>
+<tr>
+<td>  Address </td>
+<td> <input type="text" value="<?php echo $_POST ['address']; ?>" readonly=""/></td>
+</tr>
+<tr>
+<td>  City</td>
+<td> <input type="text" value="<?php echo $_POST ['name']; ?>" readonly=""/></td>
+</table>
+</html>
+?>

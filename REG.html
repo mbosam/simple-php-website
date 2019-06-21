@@ -1,0 +1,21 @@
+<html>
+<body>
+<script>
+function validationform()
+var name=document.myform.name.value;
+password=document.myform.password.value;
+if(name==null // name==""){
+alert("name cant be blank");
+return false;}
+else if(password.lenght<6){
+alert("password must be atleast 6 digit");
+return false;}
+}</script>
+<body>
+<form name="myform" method="post" action="" onsubmit="return validateform()">
+name=<input type="text"name="name"> <br/>
+password=<input type="password"name="password"> <br/>
+name=<input type="submit"value="register">
+</form>
+</body>
+</html>
